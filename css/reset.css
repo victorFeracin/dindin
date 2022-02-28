@@ -1,4 +1,11 @@
-/**
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+	font-family: 'Ubuntu', sans-serif;
+	box-sizing: border-box;
+}
+
+/*
  * Remove anchor tex-decoration
  */ 
 
@@ -6,11 +13,11 @@
 	text-decoration: none;
 }
 
-/**
+/*
  * Remove list-style
  */ 
 
-ol, ul {
+ol, ul, li {
 	list-style: none;
 }
 

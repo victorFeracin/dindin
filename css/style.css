@@ -1,0 +1,83 @@
+header, footer {
+  background: #2E948A;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.header-container, .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-logo {
+  margin-right: 35px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header-menu li a{
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 300ms;
+}
+
+.header-menu li a:hover, .footer-menu li a:hover {
+  color: rgb(184, 199, 197);
+}
+
+
+
+
+
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-menu li a{
+  color: #fff;
+  font-size: 20px;
+  transition: 300ms;
+}
+
+.footer-bttn-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-bttn {
+  color: #fff;
+  padding: 15px 40px;
+  border: 2px solid #fff;
+  text-align: center;
+  border-radius: 50px;
+  transition: 300ms;
+}
+
+.footer-bttn:hover {
+  color: #2E948A;
+  background: #fff;
+}
