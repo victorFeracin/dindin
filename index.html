@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>dindin - Início</title>
+  <title>dindin</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <header>
     <div class="header-container">
-      <img id="header-logo" src="img/logo-header.png" alt="Dindin Logo">
+      <a href="index.html"><img src="img/logo-header.png" alt="Dindin Logo"></a>
       <nav class="header-menu">
           <li><a href="cursos.html">CURSOS</a></li>
           <li><a href="blog.html">BLOG</a></li>
@@ -21,12 +22,114 @@
   </header>
 
   <main>
+    <section class="container intro">
+      <div class="intro-content">
+        <h1>Educação<br>Financeira<br>é tudo de bom</h1>
+        <p>Vem comigo que te mostro por onde começar</p>
+        <a href="cursos.html">quero saber mais</a>
+      </div>
+
+      <div class="intro-img">
+        <img src="img/ilustra-banner.png" alt="Ilustra banner">
+      </div>
+    </section>
     
+
+    <section class="container cursos-cta">
+      <div class="cursos-cta-item">
+        <img src="img/ilustra-poupando.png" alt="Investimento para iniciantes">
+        <h2>Investimento para iniciantes</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+        <a href="investimento-para-iniciantes.html">começar agora</a>
+      </div>
+
+      <div class="cursos-cta-item">
+        <img src="img/ilustra-investimento.png" alt="Poupando e rendendo">
+        <h2>Poupando e rendendo</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+        <a href="investimento-para-iniciantes.html">começar agora</a>
+      </div>
+
+      <div class="cursos-cta-item">
+        <img src="img/ilustra-independencia.png" alt="Independência financeira">
+        <h2>Independência financeira</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla pariatur.</p>
+        <a href="investimento-para-iniciantes.html">começar agora</a>
+      </div>
+    </section>
+
+    <section class="container opinioes">
+      <h2>O QUE FALAM SOBRE NÓS</h2>
+
+      <div class="opinioes-row">
+        <div class="opinioes-content">
+          <img src="img/icon-wally.png" alt="Wally">
+          <div>
+            <p>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
+            <cite>Wally, 25</cite>
+          </div>
+        </div>
+
+        <div class="opinioes-content">
+          <img src="img/icon-jaden.png" alt="Jaden Smith">
+          <div>
+            <p>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
+            <cite>Wally, 25</cite>
+          </div>
+        </div>
+      </div>
+
+      <div class="opinioes-row">
+        <div class="opinioes-content">
+          <img src="img/icon-whoopi.png" alt="Whoopi Goldberg">
+          <div>
+            <p>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
+            <cite>Wally, 25</cite>
+          </div>
+        </div>
+
+        <div class="opinioes-content">
+          <img src="img/icon-jane.png" alt="Janes Joplin">
+          <div>
+            <p>”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”</p>
+            <cite>Wally, 25</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container blog-cta">
+      <h2>MAIS CONTEÚDOS PARA VOCÊ</h2>
+
+      <div class="blog-cta-row">
+
+        <div class="blog-cta-content">
+          <img src="img/rectangle-index.png" alt="Rectangle">
+          <h3>Itaque earum rerum</h3>
+          <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        </div>
+
+        <div class="blog-cta-content">
+          <img src="img/rectangle-index.png" alt="Rectangle">
+          <h3>Itaque earum rerum</h3>
+          <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        </div>
+
+        <div class="blog-cta-content">
+          <img src="img/rectangle-index.png" alt="Rectangle">
+          <h3>Itaque earum rerum</h3>
+          <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+        </div>
+
+      </div>
+      
+      <a href="blog.html">ver todos os posts</a>
+    </section>
   </main>
 
   <footer>
     <div class="footer-container">
-      <img src="img/logo-footer.png" alt="Dindin Logo">
+      <a href="index.html"><img src="img/logo-footer.png" alt="Dindin Logo"></a>
 
       <nav class="footer-menu">
         <li><a href="cursos.html">CURSOS</a></li>
@@ -35,10 +138,11 @@
       </nav>
 
       <div class="footer-bttn-container">
-        <a href="#" class="footer-bttn">Quero ser prof</a>
-        <a href="#" class="footer-bttn">Aqui tem outro link</a>
+        <a href="contato.html" class="footer-bttn">Quero ser prof</a>
+        <a href="contato.html" class="footer-bttn">Aqui tem outro link</a>
       </div>
     </div>
   </footer>
+
 </body>
 </html>
