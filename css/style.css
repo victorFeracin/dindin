@@ -15,10 +15,6 @@ header, footer {
   align-items: center;
 }
 
-#header-logo {
-  margin-right: 35px;
-}
-
 .header-menu {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +144,7 @@ header, footer {
 
 .cursos-cta-item p {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .cursos-cta-item a {
@@ -251,6 +248,7 @@ header, footer {
   border: 2px solid #FF4081;
   border-radius: 25px;
   transition: 300ms;
+  text-align: center;
 }
 
 .blog-cta a:hover {
@@ -258,3 +256,131 @@ header, footer {
   color: #F7F7F7;
 }
 
+
+@media only screen and (max-width: 1630px) {
+  .intro {
+    max-width: 80%;
+    gap: 40px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .cursos-cta-item{
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .intro {
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 1020px) {
+  .header-container img {
+    max-width: 200px;
+  }
+  
+  .intro-content h1, h1 {
+    font-size: 45px; 
+  }
+
+  .header-menu li a, .intro-content p, .intro-content a, .blog-cta a, .footer-bttn, p, a{
+    font-size: 18px;
+  }
+
+  .intro-img img {
+    max-width: 403px;
+  }
+
+  .cursos-cta-item a {
+    padding: 10px 20px;
+  }
+
+}
+
+@media only screen and (max-width: 880px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-menu {
+    gap: 20px;
+  }
+
+  .cursos-cta {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .cursos-cta-item, .cursos-cta-item:nth-child(2) {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .blog-cta {
+    text-align: center;
+  }
+
+  .blog-cta-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .blog-cta-content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .header-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .opinioes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .opinioes-row {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .opinioes-content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 503px) {
+  .intro-img img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .opinioes-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 356px) {
+  .header-menu {
+    gap: 25px;
+  }
+
+  
+}
