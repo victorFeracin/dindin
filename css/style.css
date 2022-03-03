@@ -81,6 +81,7 @@ header, footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .intro-content h1 {
@@ -321,12 +322,12 @@ header, footer {
 
 /*Investimento para iniciantes*/
 
-.investimento-intro {
+.investimento-blog-intro {
   flex-direction: row;
   max-width: 80%;
 }
 
-.investimento-intro-content {
+.investimento-blog-intro-content {
   max-width: 50%;
 }
 
@@ -432,4 +433,38 @@ header, footer {
 .contato-footer {
   position: absolute;
   bottom: 0;
+}
+
+
+/*Blog*/
+
+.blog-title {
+  color: #2E948A;
+}
+
+
+
+
+.blog-content {
+  background: #F7F7F7;
+  padding: 100px 5% 100px 5%;
+}
+
+.blog-content-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.blog-content-row h2, .blog-content-row p {
+  max-width: 518px;
+}
+
+.blog-item h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px 0;
 }
