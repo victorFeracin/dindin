@@ -476,3 +476,54 @@ header, footer {
 
 
 /*Post*/
+
+.blog-post {
+  margin: 80px auto;
+}
+
+.blog-post h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.blog-post p:nth-child(2) {
+  color: #9D9D9D;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.blog-post img {
+  display: block;
+  margin: 65px auto;
+}
+
+.blog-post p, .blog-post h3 {
+  display: block;
+  margin: 0 auto;
+  max-width: 1032px;
+}
+
+.blog-post p {
+  margin-bottom: 20px;
+}
+
+.blog-post h3 {
+  color: #2E948A;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 40px auto 20px auto;
+}
+
+
+
+.cursos-cta-post h2:first-child {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.cursos-cta-post {
+  margin-bottom: 0;
+}

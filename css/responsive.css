@@ -244,3 +244,16 @@
     font-size: 40px;
   }
 }
+
+
+/*Post*/
+
+@media only screen and (max-width: 1024px) {
+  .blog-post {
+    max-width: 90%;
+  }
+
+  .blog-post h1 {
+    font-size: 45px;
+  }
+}
