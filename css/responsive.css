@@ -1,0 +1,220 @@
+/*Index*/
+
+@media only screen and (max-width: 1630px) {
+  .intro {
+    max-width: 80%;
+    gap: 40px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .cursos-cta-item{
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .intro {
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .header-container img {
+    max-width: 200px;
+  }
+  
+  .intro-content h1, h1 {
+    font-size: 45px; 
+  }
+
+  .header-menu li a, .intro-content p, .intro-content a, .blog-cta a, .footer-bttn, p, a{
+    font-size: 18px;
+  }
+
+  .intro-img img {
+    max-width: 403px;
+  }
+
+  .cursos-cta-item a {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-menu {
+    gap: 20px;
+  }
+
+  .cursos-cta {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .cursos-cta-item, .cursos-cta-item:nth-child(2) {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .blog-cta {
+    text-align: center;
+  }
+
+  .blog-cta-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .blog-cta-content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .header-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .opinioes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .opinioes-row {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .opinioes-content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 503px) {
+  .intro-img img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .opinioes-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 356px) {
+  .header-menu {
+    gap: 25px;
+  }
+}
+
+
+/*Cursos*/
+
+@media only screen and (max-width: 1280px) {
+  .cursos-item-content p {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .cursos h1 {
+    font-size: 45px;
+  }
+
+  .cursos{
+    text-align: center;
+  }
+
+  .cursos-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cursos-item-img {
+    min-width: 0;
+  }
+
+  .cursos-item-content h2 {
+    font-size: 25px;
+  }
+}
+
+
+/*Investimento para iniciantes*/
+
+@media only screen and (max-width: 1600px) {
+  .aulas-item-video {
+    width: 450px;
+    height: 262.5px;
+  }
+}
+
+@media only screen and (max-width: 1279px) {
+  .investimento-intro {
+    gap: 45px;
+  }
+
+  .aulas {
+    padding: 75px 4%;
+  }
+
+  .aulas-item{
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .aulas-item-video {
+    width: 90%;
+    height: 60%;
+  }
+
+  .aulas-item-content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .investimento-intro {
+    align-items: center;
+  }
+  
+  .investimento-intro h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .aulas-item-video {
+    width: 98%;
+    height: 70%;
+  }
+}
+
+@media only screen and (max-width: 710px) { 
+  .investimento-intro-content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .aulas-item-video {
+    width: 98%;
+    height: 35vh;
+  }
+}
