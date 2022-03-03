@@ -373,3 +373,63 @@ header, footer {
 .aulas p {
   margin-top: 25px;
 }
+
+
+/*Contato*/
+
+.contato {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 80px auto;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.contato-form {
+  min-width: 50%;
+}
+
+.contato-form h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.contato-form input, .contato-form textarea {
+  display: block;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  padding: 10px 0 10px 20px;
+  font-size: 18px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contato-form textarea {
+  resize: none;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#send-form-bttn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid #FF4081;
+  border-radius: 25px;
+  background: #FF4081;
+  transition: 300ms;
+  padding: 5px 40px;
+}
+
+#send-form-bttn:hover {
+  color: #FF4081;
+  background: #fff;
+}
+
+
+.contato-footer {
+  position: absolute;
+  bottom: 0;
+}
