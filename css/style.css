@@ -467,4 +467,12 @@ header, footer {
   font-size: 30px;
   font-weight: 700;
   margin: 15px 0;
+  transition: 300ms;
 }
+
+.blog-item h2:hover {
+  color: #2E948A;
+}
+
+
+/*Post*/
