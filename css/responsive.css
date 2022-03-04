@@ -234,11 +234,6 @@
 
 }
 
-@media only screen and (max-height: 800px) {
-  .contato-footer {
-    position: static;
-  }
-}
 
 /*Blog*/
 

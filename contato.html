@@ -10,49 +10,51 @@
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <a href="index.html"><img src="img/logo-header.png" alt="Dindin Logo"></a>
-      <nav class="header-menu">
+  <section id="contato-wrapper">
+    <header class="contato-header">
+      <div class="header-container">
+        <a href="index.html"><img src="img/logo-header.png" alt="Dindin Logo"></a>
+        <nav class="header-menu">
+            <li><a href="cursos.html">CURSOS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </nav>
+      </div>
+    </header>
+  
+    <main class="contato-main">
+      <section class="container contato">
+        <div class="contato-form">
+          <h1>Contato</h1>
+          <form>
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="email" id="email" placeholder="E-mail">
+            <textarea id="mensagem" placeholder="Mensagem"></textarea>
+            <a href="#" id="send-form-bttn">Enviar</a>
+          </form>
+        </div>
+        <div class="contato-img">
+          <img src="img/ilustra-contato.png" alt="Contato">
+        </div>
+      </section>
+    </main>
+  
+    <footer class="contato-footer">
+      <div class="footer-container">
+        <a href="index.html"><img src="img/logo-footer.png" alt="Dindin Logo"></a>
+  
+        <nav class="footer-menu">
           <li><a href="cursos.html">CURSOS</a></li>
           <li><a href="blog.html">BLOG</a></li>
           <li><a href="contato.html">CONTATO</a></li>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="container contato">
-      <div class="contato-form">
-        <h1>Contato</h1>
-        <form>
-          <input type="text" id="nome" placeholder="Nome">
-          <input type="email" id="email" placeholder="E-mail">
-          <textarea id="mensagem" placeholder="Mensagem"></textarea>
-          <a href="#" id="send-form-bttn">Enviar</a>
-        </form>
+        </nav>
+  
+        <div class="footer-bttn-container">
+          <a href="contato.html" class="footer-bttn">Quero ser prof</a>
+          <a href="contato.html" class="footer-bttn">Aqui tem outro link</a>
+        </div>
       </div>
-      <div class="contato-img">
-        <img src="img/ilustra-contato.png" alt="Contato">
-      </div>
-    </section>
-  </main>
-
-  <footer class="contato-footer">
-    <div class="footer-container">
-      <a href="index.html"><img src="img/logo-footer.png" alt="Dindin Logo"></a>
-
-      <nav class="footer-menu">
-        <li><a href="cursos.html">CURSOS</a></li>
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="contato.html">CONTATO</a></li>
-      </nav>
-
-      <div class="footer-bttn-container">
-        <a href="contato.html" class="footer-bttn">Quero ser prof</a>
-        <a href="contato.html" class="footer-bttn">Aqui tem outro link</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </section>
 </body>
 </html>
